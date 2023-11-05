@@ -42,10 +42,17 @@ virtualenv venv
 venv/scripts/activate
 ```
 3. Install project dependencies by running, 
+```
+pip install -r requirements.txt
+```
 4. Activate the database and make the migrations,
 ```
 python manage.py makemigrations
 python manage.py migrate
+```
+5. In the end, don't forget to get out of the virtual environment using the command,
+```
+deactivate
 ```
 
 <a id="run-app"></a>
@@ -65,7 +72,7 @@ GET    /books                       : Retrieve all books
 GET    /books/{id}                  : Retrieve single book by id
 POST   /books/                      : Create a new Book
 DELETE /books/{id}                  : DELETE an existing book
-GET    /books/{id}/partial-update/  : Partially update an existing book
+PUT    /books/{id}/partial-update/  : Partially update an existing book
 ```
 
 <a id = "error-hand"> </a>
