@@ -20,7 +20,7 @@ class BookSerializer(serializers.HyperlinkedModelSerializer):
         validators=[validate_publication_year]
     )
 
-    # Ensure the 'genre' field is required/not Empty for partial updates.
+    # Ensure the 'genre' field is required/not Empty when created
     genre = serializers.CharField(
         required=True
     )
