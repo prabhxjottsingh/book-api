@@ -3,9 +3,3 @@ db.sqlite3
 
 #ignore virtualenvironment files
 venv/
-
-#compiled python files
-__pycache__/
-
-#ide files
-.vscode/
