@@ -9,6 +9,3 @@ __pycache__/
 
 #ide files
 .vscode/
-
-#migrations files
-migrations
