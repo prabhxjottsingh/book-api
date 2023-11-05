@@ -21,6 +21,7 @@ class BookSerializer(serializers.HyperlinkedModelSerializer):
     )
 
     # Ensure the 'genre' field is required/not Empty when created
+    # Ensure the 'genre' field is required/not Empty when created
     genre = serializers.CharField(
         required=True
     )
