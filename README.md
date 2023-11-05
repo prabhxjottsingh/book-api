@@ -1,5 +1,5 @@
 # Book Collection Project -
- <a hraf = "https://drive.google.com/file/d/1w7_NEWz_kk9VfX4JPiIZYj6JqWzrsDta/view?usp=sharing" > Video Link </a>
+ <a href = "https://drive.google.com/file/d/1w7_NEWz_kk9VfX4JPiIZYj6JqWzrsDta/view?usp=sharing" > Video Link </a>
  <br>
 This GitHub repository hosts a Django project with *Django Rest Framework* that creates a **RESTful API** for managing books. It meets the following project requirements:
 <br> &ensp; &#9745; offering operations to list all books, 
